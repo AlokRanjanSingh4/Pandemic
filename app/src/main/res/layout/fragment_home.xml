@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1F1B24"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:background="#fcfcfc"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/covid_19_pandemic"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/text"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/top_round">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:src="@drawable/covid"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/group_divider"
+        android:layout_below="@id/logo"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_marginTop="34dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp">
+
+        <!-- 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textSize="34sp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Affected"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvTotalConfirmed"
+                style="@style/TotalFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTotalConfirmed"
+                tools:text="162387" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="34sp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Death"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tvTotalDeaths"
+                    style="@style/TotalFontStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTotalDeaths"
+                    tools:text="75648" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/group_divider"
+        android:layout_centerHorizontal="true"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="12dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="34sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Recovered"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvTotalRecovered"
+                style="@style/TotalFontStyle"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTotalRecovered"
+                tools:text="75938" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_below="@id/group_divider"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvLastUpdated"
+        style="@style/LabelFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:text="Last Updated\n Mon, 23 Mar 2020 1:20:30 PM" />
+
+
+    <ProgressBar
+        android:id="@+id/progress_circular_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress" />
+
+
+
+</RelativeLayout>
