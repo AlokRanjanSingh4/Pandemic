@@ -3,7 +3,7 @@
 This is a application dedicated for COVID-19 and live update regarding that.
 
 <p align="center">
-  <img width="480" height="200" src="github.png">
+  <img width="520" height="200" src="github.png">
 </p>
 
 # Preview
