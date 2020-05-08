@@ -1,8 +1,8 @@
 # Pandemic
 
-## **APK Given above for download** ##
+## ***APK Given above for download*** ##
 
-**Click to download the apk** https://github.com/AlokRanjanSingh4/Pandemic/blob/master/Pandemic.apk
+***Click to download the apk*** https://github.com/AlokRanjanSingh4/Pandemic/blob/master/Pandemic.apk
 
 This is a application dedicated for COVID-19 and live update regarding that.
 
