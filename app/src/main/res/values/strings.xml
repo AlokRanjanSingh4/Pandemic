@@ -3,14 +3,20 @@
     <string name="home">Home</string>
     <string name="countries">Countries</string>
     <string name="profile">Profile</string>
-    <string name="link1"><a href="https://corona.lmao.ninja/v2/all">Link 1: Tap here to open Link</a></string>
-    <string name="link2"><a href="https://covid19api.herokuapp.com/">Link 2: Tap here to open Link</a></string>
-    <string name="link3"><a href="http://github.com/AlokRanjanSingh4">GitHub: Tap here to open Link</a></string>
-    <string name="link4"><a href="http://linkedin.com/in/alok-ranjan-singh-b7847a17a">LinkedIn: Tap here to open Link</a></string>
+    <string name="link1"><a href="https://corona.lmao.ninja/">API: 1</a></string>
+    <string name="link2"><a href="https://covid19api.herokuapp.com/">API: 2</a></string>
+    <string name="link3"><a href="http://github.com/AlokRanjanSingh4">GitHub</a></string>
+    <string name="link4"><a href="http://linkedin.com/in/alok-ranjan-singh-b7847a17a">LinkedIn</a></string>
 
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
 
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="covid_19_pandemic">COVID - 19 Pandemic</string>
     <string name="total_death">Total Death</string>

@@ -71,7 +71,6 @@ public class HomeFragment extends Fragment {
     }
 
     private String getDate(long milliSecond){
-        // Mon, 23 Mar 2020 02:01:04 PM
         SimpleDateFormat formatter = new SimpleDateFormat("EEE, dd MMM yyyy hh:mm:ss aaa");
 
         Calendar calendar= Calendar.getInstance();

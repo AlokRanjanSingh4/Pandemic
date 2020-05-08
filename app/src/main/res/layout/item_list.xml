@@ -21,7 +21,7 @@
 
             <ImageView
                 android:id="@+id/main_country_image"
-                android:layout_width="71dp"
+                android:layout_width="80dp"
                 android:layout_height="match_parent" />
 
             <LinearLayout

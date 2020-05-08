@@ -9,4 +9,11 @@
     <color name="colorTotalConfirmed">#e60000</color>
     <color name="colorTotalDeaths">#999999</color>
     <color name="colorTotalRecovered">#7bb974</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="yellow">#F8BA0F</color>
+    <color name="goodgrey">#535353</color>
+    <color name="blue">#293859</color>
+    <color name="lightgrey">#EEEEEE</color>
 </resources>

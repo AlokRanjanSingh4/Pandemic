@@ -84,6 +84,7 @@ public class CountryFragment extends Fragment {
         mList.setAdapter(adapter);
 
         getData(data_type, order_list);
+        //comment
 
         return root;
     }
