@@ -4,7 +4,7 @@
 
 ***Click to download the apk*** https://github.com/AlokRanjanSingh4/Pandemic/blob/master/Pandemic.apk
 
-This is a application dedicated for COVID-19 and live update regarding that.
+This is an application dedicated for COVID-19 and live update regarding that.
 
 <p align="center">
   <img width="520" height="200" src="github.png">
